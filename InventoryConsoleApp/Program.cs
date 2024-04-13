@@ -8,18 +8,7 @@ using System.Data;
 
 namespace InventoryConsoleApp
 {
-    // Data model
-    public class Product
-    {
-        // Properties
-        public Guid Id { get; set; } // Unique identify
-        public string Name { get; set; }
-        public string Category { get; set; }
-        public decimal Price { get; set; }
-        public int Quantity { get; set; }
-    }
-
-    internal class Program
+    public class Program
     {
         static List<Product> products = new List<Product>();
 
